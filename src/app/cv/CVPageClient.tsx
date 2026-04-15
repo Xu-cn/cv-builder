@@ -322,7 +322,7 @@ export function CVPageClient() {
         <div data-reveal className="flex flex-wrap items-center justify-between gap-4">
           {/* ECE Paris */}
           <div className="flex items-center gap-3">
-            <img src="/logos/ece.png" alt="ECE Paris" className="h-7 sm:h-8 w-auto" />
+            <img src="/logos/ECE.png" alt="ECE Paris" className="h-7 sm:h-8 w-auto" />
             <div>
               <p className="text-[10px] font-mono text-gray-600 tracking-widest uppercase">{t.hero.educationLabel}</p>
               <p className="text-xs text-gray-400 font-medium">{t.hero.educationSub}</p>
@@ -334,7 +334,7 @@ export function CVPageClient() {
               <p className="text-[10px] font-mono text-gray-600 tracking-widest uppercase">{t.hero.jobLabel}</p>
               <p className="text-xs text-gray-400 font-medium">{t.hero.jobSub}</p>
             </div>
-            <img src="/logos/stellantis.png" alt="Stellantis" className="h-7 sm:h-8 w-auto" />
+            <img src="/logos/Stellantis.png" alt="Stellantis" className="h-7 sm:h-8 w-auto" />
           </div>
         </div>
 
