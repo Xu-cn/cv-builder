@@ -35,7 +35,7 @@ export async function GET(req: NextRequest) {
       margin: { top: "0", right: "0", bottom: "0", left: "0" },
     });
 
-    return new NextResponse(pdf, {
+    return new NextResponse(pdf.buffer, {
       headers: {
         "Content-Type": "application/pdf",
         "Content-Disposition": `attachment; filename="${resume.title}.pdf"`,
